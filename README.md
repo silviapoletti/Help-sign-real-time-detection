@@ -5,7 +5,7 @@ Artificial Intelligence is an incredibly powerful tool that can be also employed
 The signal for help (see the image below on the left) can be imitated by using two signs of the American Sign Language (ASL), namely the letters A and B (see the images below on the right) one after the other.
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/95250a662145757e0069db38324ed091de98b063/resources/signal-for-help.png" width="40%">
+  <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/95250a662145757e0069db38324ed091de98b063/resources/signal-for-help.png" height=500>
   <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/e6957ba06275f95b0b7c04dacbcba32c95cee645/resources/ASL.jpg" width="40%">
 </p>
 
@@ -15,9 +15,10 @@ Therefore, a CNN has been designed to discriminate beetween the two ASL gestures
   <img src="https://github.com/tofighi/Hand-Reader-Dataset/blob/aad4a81ade6cfe5c8b963ac3837b769a5bb623b0/hand-reader-dataset/A/00000.jpg" width="30%">
   <img src="https://github.com/tofighi/Hand-Reader-Dataset/blob/aad4a81ade6cfe5c8b963ac3837b769a5bb623b0/hand-reader-dataset/A/00001.jpg" width="30%">
   <img src="https://github.com/tofighi/Hand-Reader-Dataset/blob/aad4a81ade6cfe5c8b963ac3837b769a5bb623b0/hand-reader-dataset/A/00002.jpg" width="30%">
-  <img src="https://github.com/tofighi/Hand-Reader-Dataset/blob/aad4a81ade6cfe5c8b963ac3837b769a5bb623b0/hand-reader-dataset/A/00003.jpg" width="30%">
+  <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/ae8d17e5d83b78bfa9c3b4bb50907d97fea7e7b8/hand-reader-dataset/A/00000.png" width="30%">
+  <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/ae8d17e5d83b78bfa9c3b4bb50907d97fea7e7b8/hand-reader-dataset/A/00001png" width="30%">
+  <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/ae8d17e5d83b78bfa9c3b4bb50907d97fea7e7b8/hand-reader-dataset/A/00002png" width="30%">
 </p>
 
 
 <br/>
-
