@@ -1,4 +1,4 @@
-# Spain: Energy supply and Energy price profile
+# "Signal for help": real-time detection
 
 <img align="right" width="30%" src="https://github.com/silviapoletti/Spain-energy-supply-and-price-profile/blob/c24908090611c859eef82dde638011d796fead0c/slides%20and%20plots/logo.png">
 
