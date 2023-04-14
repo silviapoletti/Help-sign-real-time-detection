@@ -1,4 +1,4 @@
-# "Signal for help": real-time detection
+# Signal for help: real-time detection
 
 
 <p align="center">
