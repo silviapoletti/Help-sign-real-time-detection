@@ -12,12 +12,7 @@ The signal for help (see the image below on the left) can be imitated by using t
 Therefore, a CNN has been designed to discriminate beetween the two ASL gestures and has been trained on a modified version of the [Hand Reader Dataset](https://github.com/tofighi/Hand-Reader-Dataset) (see the first row of images below). You can find the modified dataset in the `hand-reader-dataset` folder of this repository. The dataset consists of a subset of the original images, corresponding to the classes "A" and "B" only. Moreover, the images have been cropped to a square format and the background has been lightened (see the second row of images below). In this way, the model can recognize more easily the gestures appearing in front of a light background, which is indeed to the most frequent setting for a webcam video frame.
 
 <p align="center">
-  <img src="https://github.com/tofighi/Hand-Reader-Dataset/blob/aad4a81ade6cfe5c8b963ac3837b769a5bb623b0/hand-reader-dataset/A/00000.jpg" width="30%">
-  <img src="https://github.com/tofighi/Hand-Reader-Dataset/blob/aad4a81ade6cfe5c8b963ac3837b769a5bb623b0/hand-reader-dataset/A/00001.jpg" width="30%">
-  <img src="https://github.com/tofighi/Hand-Reader-Dataset/blob/aad4a81ade6cfe5c8b963ac3837b769a5bb623b0/hand-reader-dataset/A/00002.jpg" width="30%">
-  <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/ae8d17e5d83b78bfa9c3b4bb50907d97fea7e7b8/hand-reader-dataset/A/00000.png" width="30%">
-  <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/ae8d17e5d83b78bfa9c3b4bb50907d97fea7e7b8/hand-reader-dataset/A/00001.png" width="30%">
-  <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/ae8d17e5d83b78bfa9c3b4bb50907d97fea7e7b8/hand-reader-dataset/A/00002.png" width="30%">
+  <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/6f8bc96dc00ece68bfb2c1ba448e36cc4f45811b/resources/dataset.png" >
 </p>
 
 
