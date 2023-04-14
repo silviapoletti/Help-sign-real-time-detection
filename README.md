@@ -16,12 +16,12 @@ Therefore, a CNN has been designed to discriminate beetween the two ASL gestures
 </p>
 
 The CNN discriminator takes in input a patch that is automatically detected by the [Mediapipe hand-landmarks-detector](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker) within an image frame, in two different possible settings:
-  1. The image frame is a single photograph generated with the `take_photo` code snippet available in Google Colab.
+  1. The image frame is a single photograph generated with the `take_photo` code snippet available in Google Colab. In this way you can detect the ASL signs "A" and "B" as individual gestures.
 <p align="center">
   <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/27ed4ed812eba04339bbf008ea18d792a6dff599/resources/sampleA.png" width="60%">
 </p>
 
-  2. The image frame is continuously updated according to your real-time webcam video stream.
+  2. The image frame is continuously updated according to your real-time webcam video stream. In this way you can detect the signal for help.
 
 
 
