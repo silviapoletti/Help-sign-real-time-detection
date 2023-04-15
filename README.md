@@ -28,7 +28,9 @@ The CNN discriminator takes in input a patch that is automatically detected by t
 
 https://user-images.githubusercontent.com/65509198/232208327-3efb2cca-a9c3-41d8-a524-333164313c14.mp4
 
-
+To reproduce the experiment, please try to meet the following requirements:
+- choose a light background for your video
+- record the video with a good light condition
 
 
 
