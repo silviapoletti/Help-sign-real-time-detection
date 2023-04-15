@@ -25,6 +25,9 @@ The CNN discriminator takes in input a patch that is automatically detected by t
 </p>
 
   2. The image frame is continuously updated according to your real-time webcam video stream. In this way you can detect the signal for help.
+<video width="320" height="240" controls>
+  <source src="video.mov" type="video/mp4">
+</video>
 
 
 
