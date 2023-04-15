@@ -25,7 +25,7 @@ The CNN discriminator takes in input a patch that is automatically detected by t
 </p>
 
   2. The image frame is continuously updated according to your real-time webcam video stream. In this way you can detect the signal for help.
-<video width="320" controls>
+<video width="320" height="240" controls>
   <source src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/38ce546c910ca17aab1ecc2afb6cfc3da4ce5884/resources/help.mp4" type="video/mp4">
 </video>
 
