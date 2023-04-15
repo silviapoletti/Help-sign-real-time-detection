@@ -6,6 +6,7 @@ The signal for help (see the image below on the left) can be imitated by using t
 
 <p align="center">
   <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/95250a662145757e0069db38324ed091de98b063/resources/signal-for-help.png" height=200>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/e6957ba06275f95b0b7c04dacbcba32c95cee645/resources/ASL.jpg" height=200 style="padding-left:50px">
 </p>
 
@@ -18,10 +19,14 @@ Therefore, a CNN has been designed to discriminate beetween the two ASL gestures
 The CNN discriminator takes in input a patch that is automatically detected by the [Mediapipe hand-landmarks-detector](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker) within an image frame, in two different possible settings:
   1. The image frame is a single photograph generated with the `take_photo` code snippet available in Google Colab. In this way you can detect the ASL signs "A" and "B" as individual gestures.
 <p align="center">
-  <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/27ed4ed812eba04339bbf008ea18d792a6dff599/resources/sampleA.png" width="80%">
+  <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/e10b00620755c55e27b18877b70b8ffdde907de8/resources/sampleA.png" width="40%">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/e10b00620755c55e27b18877b70b8ffdde907de8/resources/sampleB.png" width="40%">
 </p>
 
   2. The image frame is continuously updated according to your real-time webcam video stream. In this way you can detect the signal for help.
+![](https://github.com/silviapoletti/Help-sign-real-time-detection/blob/38ce546c910ca17aab1ecc2afb6cfc3da4ce5884/resources/help.mp4)
+
 
 
 
