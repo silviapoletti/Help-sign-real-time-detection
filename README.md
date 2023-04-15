@@ -6,6 +6,8 @@ The signal for help (see the image below on the left) can be imitated by using t
 
 <p align="center">
   <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/95250a662145757e0069db38324ed091de98b063/resources/signal-for-help.png" height=200>
+  &nbsp;
+  &nbsp;
   <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/e6957ba06275f95b0b7c04dacbcba32c95cee645/resources/ASL.jpg" height=200 style="padding-left:50px">
 </p>
 
