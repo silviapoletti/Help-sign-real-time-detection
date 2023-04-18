@@ -8,7 +8,7 @@ Artificial Intelligence is an incredibly powerful tool that can be also employed
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-The signal for help (see the image below on the left) can be imitated by using two signs of the American Sign Language (ASL) one after the other, namely the letters B and E. However, due to the limited amount of good quality data, the letters B and A have been chosen instead (see the images below on the right). Unlike letter E, in the letter A sig the thumb is not holded by the other fingers; however, the baseline model reached an acceptable accuracy in recognizing the help gesture.
+The signal for help (see the image below on the left) can be imitated by using two signs of the American Sign Language (ASL) one after the other, namely the letters B and E. However, due to the limited amount of good quality data, the letters B and A have been chosen instead (see the images below on the right). 
 
 <p align="center">
   <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/95250a662145757e0069db38324ed091de98b063/resources/signal-for-help.png" height=200>
@@ -16,7 +16,9 @@ The signal for help (see the image below on the left) can be imitated by using t
   <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/e6957ba06275f95b0b7c04dacbcba32c95cee645/resources/ASL.jpg" height=200 style="padding-left:50px">
 </p>
 
-Therefore, a CNN has been designed as baseline model to discriminate beetween the two ASL gestures and has been trained on a modified version of the [Hand Reader Dataset](https://github.com/tofighi/Hand-Reader-Dataset) (see the first row of images below). You can find the modified dataset in the `baseline/hand-reader-dataset` folder of this repository. The dataset consists of a subset of the original images, corresponding to the classes "A" and "B" only. Moreover, the images have been cropped to a square format and the background has been lightened (see the second row of images below). In this way, the model can recognize more easily the gestures appearing in front of a light background, which is indeed to the most frequent setting for a webcam video frame.
+Unlike letter E, in letter A sign the thumb is not holded by the other fingers; however, the baseline model reached an acceptable accuracy in recognizing the help gesture.
+
+A CNN has been designed as baseline model to discriminate beetween the two ASL gestures and has been trained on a modified version of the [Hand Reader Dataset](https://github.com/tofighi/Hand-Reader-Dataset) (see the first row of images below). You can find the modified dataset in the `baseline/hand-reader-dataset` folder of this repository. The dataset consists of a subset of the original images, corresponding to the classes "A" and "B" only. Moreover, the images have been cropped to a square format and the background has been lightened (see the second row of images below). In this way, the model can recognize more easily the gestures appearing in front of a light background, which is indeed to the most frequent setting for a webcam video frame.
 
 <p align="center">
   <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/4820e6e5a85f673f4134698f7c359ec8f1d4c184/resources/dataset.png">
@@ -39,6 +41,14 @@ To reproduce the experiment with the baseline model, you have to meet the follow
 ## YOLO (v4) transfer learning on custom dataset
 
 A more sophisticated approach is to finetune the YOLO (v4) state-of-the-art real-time object detector (Darknet repository [here](https://github.com/AlexeyAB/darknet)) on a custom dataset containing samples of the two signs appearing in the signal for help gesture.
+
+The custom dataset has been generated and labeled with the use of the [LabelImg](https://github.com/heartexlabs/labelImg#labelimg) tool.
+
+For a complete a detailed description of the steps needed to perform transfer learning, please refer to this [guide](https://medium.com/p/61a659d4868#f7ec).
+You can find the required additional files that are not present in the Darknet repository in the `resources` folder of this repository.
+
+
+
 
 
 
