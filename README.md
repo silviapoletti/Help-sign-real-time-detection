@@ -5,7 +5,7 @@
   
 Artificial Intelligence is an incredibly powerful tool that can be also employed for helping people in case of emergency. Indeed, this project aims to automatically detect the "signal for help" gesture created by the [Canadian Women's Foundation](https://canadianwomen.org/) in 2020. In general, you may use this signal to alert others that you feel threatened and need help, and this is typically convenient in case of domestic violence. 
 
-## Baseline approach
+## Baseline CNN
 
 The signal for help can be imitated by using two signs of the American Sign Language (ASL) one after the other, namely the letters B and E. However, due to the limited amount of good quality data, the letters B and A have been chosen instead. Unlike letter E, in letter A sign the thumb is not holded by the other fingers; however, the baseline model reached an acceptable accuracy in recognizing the help gesture.
 
@@ -45,9 +45,3 @@ You can find the required additional files that are not present in the Darknet r
 The following record shows the performance of the finetuned YOLO model during a real-time webcam video stream with a mediocre light condition and a cluttered background.
 
 https://user-images.githubusercontent.com/65509198/232893783-1adc45b4-74a4-4c2d-9902-b985ed689982.mp4
-
-
-
-
-
-
