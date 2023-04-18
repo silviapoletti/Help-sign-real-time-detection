@@ -35,7 +35,7 @@ Please note that in order to run the experiments contained in the `baseline-help
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-A more sophisticated approach is to finetune the YOLO (v4) state-of-the-art real-time object detector (Darknet repository [here](https://github.com/AlexeyAB/darknet)) on a custom dataset containing samples of the two signs appearing in the signal for help gesture.
+A more sophisticated approach is to finetune the YOLO (v4) state-of-the-art real-time object detector (Darknet repository [here](https://github.com/AlexeyAB/darknet)) on a custom dataset containing samples of the two signs appearing in the signal for help gesture. Then, the model has been tested in the same two settings described in the previous section.
 
 The custom dataset has been generated and labeled with the use of the [LabelImg](https://github.com/heartexlabs/labelImg#labelimg) tool.
 
