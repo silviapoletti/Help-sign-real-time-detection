@@ -3,6 +3,11 @@
 Artificial Intelligence is an incredibly powerful tool that can be also employed for helping people in case of emergency. Indeed, this project aims to automatically detect the "signal for help" gesture created by the [Canadian Women's Foundation](https://canadianwomen.org/) in 2020. In general, you may use this signal to alert others that you feel threatened and need help, and this is typically convenient in case of domestic violence. 
 
 ## Baseline approach
+
+<a target="_blank" href="https://colab.research.google.com/github/silviapoletti/Help-sign-real-time-detection/blob/f1931edc956ef647281bae611fb2a98e82af3e76/baseline/baseline-help-sign-detection.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 The signal for help (see the image below on the left) can be imitated by using two signs of the American Sign Language (ASL), namely the letters A and B (see the images below on the right) one after the other.
 
 <p align="center">
@@ -33,7 +38,7 @@ To reproduce the experiment with the baseline model, you have to meet the follow
 
 ## YOLO (v4) transfer learning on custom dataset
 
-A
+A more sophisticated approach is to finetune the YOLO (v4) state-of-the-art real-time object detector (Darknet repository [here](https://github.com/AlexeyAB/darknet)) on a custom dataset containing samples of the two signs appearing in the signal for help gesture.
 
 
 
