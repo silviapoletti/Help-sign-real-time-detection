@@ -17,7 +17,7 @@ Unlike letter E, in letter A sign the thumb is not holded by the other fingers; 
 A CNN has been designed as baseline model to discriminate beetween the two ASL gestures and has been trained on a modified version of the [Hand Reader Dataset](https://github.com/tofighi/Hand-Reader-Dataset) (see the first row of images below). You can find the modified dataset in the `baseline/hand-reader-dataset` folder of this repository. The dataset consists of a subset of the original images, corresponding to the classes "A" and "B" only. Moreover, the images have been cropped to a square format and the background has been lightened (see the second row of images below). In this way, the model can recognize more easily the gestures appearing in front of a light background, which is indeed to the most frequent setting for a webcam video frame.
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/4820e6e5a85f673f4134698f7c359ec8f1d4c184/resources/dataset.png">
+  <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/4820e6e5a85f673f4134698f7c359ec8f1d4c184/resources/dataset.png" width="65%">
 </p>
 
 The CNN discriminator takes in input a patch that is automatically detected by the [Mediapipe hand-landmarks-detector](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker) within an image frame, in two different possible settings:
