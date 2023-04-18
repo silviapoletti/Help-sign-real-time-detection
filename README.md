@@ -8,7 +8,7 @@ Artificial Intelligence is an incredibly powerful tool that can be also employed
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-The signal for help (see the image below on the left) can be imitated by using two signs of the American Sign Language (ASL), namely the letters A and B (see the images below on the right) one after the other.
+The signal for help (see the image below on the left) can be imitated by using two signs of the American Sign Language (ASL) one after the other, namely the letters B and E. However, due to the limited amount of good quality data, the letters B and A have been chosen instead (see the images below on the right). Unlike letter E, in the letter A sig the thumb is not holded by the other fingers; however, the baseline model reached an acceptable accuracy in recognizing the help gesture.
 
 <p align="center">
   <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/95250a662145757e0069db38324ed091de98b063/resources/signal-for-help.png" height=200>
