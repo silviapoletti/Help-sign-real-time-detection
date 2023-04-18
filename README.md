@@ -4,10 +4,6 @@ Artificial Intelligence is an incredibly powerful tool that can be also employed
 
 ## Baseline approach
 
-<a target="_blank" href="https://colab.research.google.com/github/silviapoletti/Help-sign-real-time-detection/blob/f1931edc956ef647281bae611fb2a98e82af3e76/baseline/baseline-help-sign-detection.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-
 The signal for help (see the image below on the left) can be imitated by using two signs of the American Sign Language (ASL) one after the other, namely the letters B and E. However, due to the limited amount of good quality data, the letters B and A have been chosen instead (see the images below on the right). 
 
 <p align="center">
@@ -34,7 +30,7 @@ The CNN discriminator takes in input a patch that is automatically detected by t
 
   2. The image frame is continuously updated according to your real-time webcam video stream (generated via the `video_stream()` code available [here](https://github.com/theAIGuysCode/colab-webcam)). In this way you can detect the signal for help.
 
-To reproduce the experiment with the baseline model, you have to meet the following requirements:
+Please note that in order to run the experiments contained in the `baseline-help-sign-detection.ipynb` notebook, you have to meet the following requirements:
 - choose a light background for your video;
 - record the video with a good light condition.
 
@@ -46,6 +42,10 @@ The custom dataset has been generated and labeled with the use of the [LabelImg]
 
 For a complete a detailed description of the steps needed to perform transfer learning, please refer to this [guide](https://medium.com/p/61a659d4868#f7ec).
 You can find the required additional files that are not present in the Darknet repository in the `resources` folder of this repository.
+
+The following record shows the performance of the finetuned YOLO model during a real-time webcam video stream with a mediocre light condition and a cluttered background.
+
+https://user-images.githubusercontent.com/65509198/232893783-1adc45b4-74a4-4c2d-9902-b985ed689982.mp4
 
 
 
