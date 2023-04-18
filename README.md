@@ -5,7 +5,7 @@ Artificial Intelligence is an incredibly powerful tool that can be also employed
 ## Baseline approach
 
 <p align="center">
-<img align="right"  src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/95250a662145757e0069db38324ed091de98b063/resources/signal-for-help.png">
+<img align="right" height=200 src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/95250a662145757e0069db38324ed091de98b063/resources/signal-for-help.png">
 
 The signal for help can be imitated by using two signs of the American Sign Language (ASL) one after the other, namely the letters B and E. However, due to the limited amount of good quality data, the letters B and A have been chosen instead. Unlike letter E, in letter A sign the thumb is not holded by the other fingers; however, the baseline model reached an acceptable accuracy in recognizing the help gesture.
 
