@@ -29,7 +29,7 @@ Please note that in order to run the experiments contained in the `baseline-help
 
 ## YOLO (v4) transfer learning on custom dataset
 
-<a target="_blank" href="https://colab.research.google.com/github/silviapoletti/Help-sign-real-time-detection/blob/f4032f1402b9d15da13f4e90db42cacf54e65d09/yolov4_help_sign_detector.ipynb">
+<a target="_blank" href="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/cd2fe9fe9d6e542b8c09c2dbfd0b23b0ced4beb8/yolov4_help_sign_detector.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
