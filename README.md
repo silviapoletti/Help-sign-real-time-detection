@@ -25,9 +25,7 @@ The CNN discriminator takes in input a patch that is automatically detected by t
 
   2. The image frame is continuously updated according to your real-time webcam video stream (generated via the `video_stream()` code available [here](https://github.com/theAIGuysCode/colab-webcam)). In this way you can detect the signal for help.
 
-Please note that in order to run the experiments contained in the `baseline-help-sign-detection.ipynb` notebook, you have to meet the following requirements:
-- choose a light background for your video;
-- record the video with a good light condition.
+Please note that in order to run the experiments contained in the `baseline-help-sign-detection.ipynb` notebook, you have to meet the following requirements: choose a light background for your video and record the video with a good light condition.
 
 ## YOLO (v4) transfer learning on custom dataset
 
