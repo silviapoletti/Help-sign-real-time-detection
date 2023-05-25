@@ -23,7 +23,7 @@ The CNN discriminator takes in input a patch that is automatically detected by t
   <img src="https://github.com/silviapoletti/Help-sign-real-time-detection/blob/e10b00620755c55e27b18877b70b8ffdde907de8/resources/sampleB.png" width="40%">
 </p>
 
-  2. The image frame is continuously updated according to your real-time webcam video stream (generated via the `video_stream()` code available [here](https://github.com/theAIGuysCode/colab-webcam)). In this way you can detect the signal for help.
+  2. The image frame is continuously updated according to your real-time webcam video stream (generated via the `video_stream()` code available [here](https://github.com/theAIGuysCode/colab-webcam)). In this way the signal for help is detected whenever you show on camera the ASL letters "B" and "A" in sequence.
 
 Please note that in order to run the experiments contained in the `baseline-help-sign-detection.ipynb` notebook, you have to meet the following requirements: choose a light background for your video and record the video with a good light condition.
 
